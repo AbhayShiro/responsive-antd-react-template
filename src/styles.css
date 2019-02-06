@@ -1,0 +1,17 @@
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+.contentbox {
+  height: 100vh;
+}
+.e-right-sider {
+  z-index: 1000;
+  position: absolute;
+  right: 0px;
+  min-height: 100vh;
+}
+.e-right-sider .ant-layout-sider-zero-width-trigger {
+  right: 0 !important;
+}
